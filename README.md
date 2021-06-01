@@ -1,2 +1,2 @@
 # devops-andersen
-This branch is for my participation in DevOps Course from Andersen (June-July 2021)
+This repository is for my participation in DevOps Course from Andersen (June-July 2021)
