@@ -1,14 +1,14 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, request
 from flask.wrappers import Response
 from emodji import emodji
 
 bp = Blueprint('animals', __name__)
 
-# @bp.route('/', methods=['GET',])
-# def index():
-#     return jsonify({'hello': 'world'})
+@bp.route('/', methods=['GET',])
+def index():
+    return 'Please enter the value'
 
-@bp.route('/', methods=['POST', 'GET' ])
+@bp.route('/', methods=['POST', ])
 def main():
     data = request.get_json()
     if not data:
